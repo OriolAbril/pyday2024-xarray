@@ -2,6 +2,23 @@
 **Ponent:** Oriol Abril Pla
 **Lloc:** PyDay BCN 2024
 
+## Instal·lació de dependències
+
+```
+pip install -r requirements.txt
+# o
+conda env create --file environment.yml
+```
+
+Això instal·larà les dependències per tal d'executar la llibreta de jupyter,
+pero no jupyter notebook ni jupyter lab. En cas que us calgui instal·lar-ho també:
+
+```
+pip install jupyterlab
+# o
+conda install jupyterlab
+```
+
 ## Resum
 Apren com utilitzar xarray per treballar amb arrays n-dimensionals a través d'etiquetes i indexs arbitraris.
 Descobreix el model de dades d'xarray: DataArrays, Datasets, dimensions, coordenades, indexes.
